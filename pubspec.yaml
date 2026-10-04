@@ -1,0 +1,31 @@
+name: price_hud
+description: A floating Android market price overlay built with Flutter and Kotlin.
+publish_to: 'none'
+version: 1.0.0+2
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^3.3.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  http: ^1.5.0
+  path_provider: ^2.1.6
+  web_socket_channel: ^3.0.3
+  flutter_secure_storage: ^9.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+dependency_overrides:
+  jni: ^1.0.3
+  jni_flutter: ^1.0.3
+
+flutter:
+  uses-material-design: true

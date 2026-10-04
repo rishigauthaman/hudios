@@ -1,0 +1,5 @@
+# Keep the real key.properties and upload-keystore.jks outside source control.
+storeFile=../upload-keystore.jks
+storePassword=REPLACE_WITH_A_LONG_UNIQUE_PASSWORD
+keyAlias=upload
+keyPassword=REPLACE_WITH_A_LONG_UNIQUE_PASSWORD
